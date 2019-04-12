@@ -15,7 +15,6 @@ TEST(Yunin_Ivan_ComplexNumberTest, Priority_Of_Multiplication_Operation) {
     // Act
 
     ComplexNumber res = z1 + z2 * z3;
-    
     // Assert
 
     EXPECT_EQ(ans, res);
