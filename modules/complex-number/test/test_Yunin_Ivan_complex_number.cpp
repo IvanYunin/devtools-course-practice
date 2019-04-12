@@ -35,14 +35,14 @@ TEST(Yunin_Ivan_ComplexNumberTest, Rize_To_Third_Degree ) {
     EXPECT_EQ(ans, res);
 }
 
-TEST(Yunin_Ivan_ComplexNumberTest, Multiply_On_Own_Real_Part) {
+TEST(Yunin_Ivan_ComplexNumberTest, Direct_And_Inverse_Operation) {
     // Arrange
-    ComplexNumber z(10.0, 10.0);
-    ComplexNumber ans(100.0, 100.0);
-
+    ComplexNumber z1(1.0, 2.0);
+    ComplexNumber z2(5.5, 3.0);
+    ComplexNumber ans = z1;
 
     // Act
-    ComplexNumber res = z.getRe() * z;
+    ComplexNumber res = (z1 / z2) * z2;
 
     // Assert
     EXPECT_EQ(ans, res);
