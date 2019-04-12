@@ -38,7 +38,7 @@ TEST(Yunin_Ivan_ComplexNumberTest, Rize_To_Third_Degree ) {
 TEST(Yunin_Ivan_ComplexNumberTest, Direct_And_Inverse_Operation) {
     // Arrange
     ComplexNumber z1(1.0, 2.0);
-    ComplexNumber z2(5.5, 3.0);
+    ComplexNumber z2(5.0, 3.0);
     ComplexNumber ans = z1;
 
     // Act
