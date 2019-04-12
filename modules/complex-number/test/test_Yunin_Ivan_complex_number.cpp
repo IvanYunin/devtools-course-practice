@@ -42,7 +42,7 @@ TEST(Yunin_Ivan_ComplexNumberTest, Multiply_On_Own_Real_Part) {
 
 
     // Act
-    ComplexNumber res = z * z.getRe();
+    ComplexNumber res = z.getRe() * z;
 
     // Assert
     EXPECT_EQ(ans, res);
