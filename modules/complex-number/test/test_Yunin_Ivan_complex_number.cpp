@@ -35,10 +35,10 @@ TEST(Yunin_Ivan_ComplexNumberTest, Rize_To_Third_Degree ) {
     EXPECT_EQ(ans, res);
 }
 
-TEST(Yunin_Ivan_ComplexNumberTest, Direct_And_Inverse_Operation) {
+DISABLED_TEST(Yunin_Ivan_ComplexNumberTest, Direct_And_Inverse_Operation) {
     // Arrange
     ComplexNumber z1(1.0, 2.0);
-    ComplexNumber z2(2.0, 2.0);
+    ComplexNumber z2(5.0, 3.0);
     ComplexNumber ans = z1;
 
     // Act
